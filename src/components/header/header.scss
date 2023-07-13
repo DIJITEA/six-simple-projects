@@ -1,0 +1,26 @@
+@import "../../default_variables.scss";
+.header {
+  background-color: $projectRed;
+  &__ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    list-style: none;
+  }
+  &__li {
+    width: 100%;
+  }
+  &__button {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    color: $projectNotRed;
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+}
